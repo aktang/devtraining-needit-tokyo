@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="53f1ceaf97783110ca09b380f053afc4" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Something New" max_length="40" name="something_new" type="integer"/>
+        <element label="Urgent" max_length="40" name="urgenturgent" type="boolean"/>
+        <element choice="1" label="New Field" max_length="40" name="u_new_field_3" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
